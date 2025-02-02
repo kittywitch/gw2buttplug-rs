@@ -1,0 +1,14 @@
+# GW2Buttplug-rs
+
+A [Nexus](https://raidcore.gg/Nexus) mod for Guild Wars 2 that provides ArcDPS-derived buttplug.io control.
+
+## To-dos
+
+* Communicate connection status with imgui thread
+* Add curve GUI for intensity control
+* Add boonDPS, boonHeal, pureDPS, masochist presets
+* Add specialization & character detection, profiles...
+* Add quick bar selections on a per-character basis for presets/profiles
+* Add support for controlling separate devices using different profile/preset/curve/decision-making
+* Clean up
+* License
