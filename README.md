@@ -6,6 +6,7 @@ A [Nexus](https://raidcore.gg/Nexus) mod for Guild Wars 2 that provides ArcDPS-d
 
 * Communicate connection status with imgui thread
 * Add curve GUI for intensity control
+* Fix minions/mech/... being included as damage sources for the player
 * Add boonDPS, boonHeal, pureDPS, masochist presets
 * Add specialization & character detection, profiles...
 * Add quick bar selections on a per-character basis for presets/profiles
