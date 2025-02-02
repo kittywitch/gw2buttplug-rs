@@ -1,0 +1,17 @@
+[package]
+name = "gw2buttplug-rs"
+authors = [ "kittywitch" ]
+description = "DPS to buttplug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+buttplug = "9.0.6"
+log = "0.4.21"
+nexus = { git = "https://github.com/zerthox/nexus-rs", features = ["log", "arc", "extras"] }
+tokio = "1.43.0"
+arcdps = { git = "https://github.com/zerthox/arcdps-rs", tag = "0.15.1" }
+
+[lib]
+crate-type = ["cdylib"] # nexus addons are dynamic system libraries (dll)
