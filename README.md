@@ -10,7 +10,7 @@ Currently provided at the minimum-viable proof of concept!
 * Bind window control to a quickbar icon, allow toggling the window
 * Add curve GUI for intensity control
 * Fix minions/mech/... being included as damage sources for the player
-* Add boonDPS, boonHeal, pureDPS, masochist presets
+* Add boonDPS, boonHeal, pureDPS, masochist, harvestslut presets
 * Add specialization & character detection, profiles...
 * Add quick bar selections on a per-character basis for presets/profiles
 * Add support for controlling separate devices using different profile/preset/curve/decision-making
