@@ -7,6 +7,10 @@ Currently provided at the minimum-viable proof of concept!
 ## To-dos
 
 * Test support under Wine
+* Implement better state machine for vibration control
+    * Consider fade out mechanics better, instead of immediate shut-off
+    * Consider how to handle fading between combat and out-of-combat repeatedly in quick succession
+        * Intensity hold-over for a period?
 * Communicate connection status with imgui thread
 * Bind window control to a quickbar icon, allow toggling the window
 * Add curve GUI for intensity control
