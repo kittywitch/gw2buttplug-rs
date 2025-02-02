@@ -6,6 +6,7 @@ Currently provided at the minimum-viable proof of concept!
 
 ## To-dos
 
+* Test support under Wine
 * Communicate connection status with imgui thread
 * Bind window control to a quickbar icon, allow toggling the window
 * Add curve GUI for intensity control
