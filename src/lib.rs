@@ -33,7 +33,7 @@ static BP_THREAD: OnceLock<JoinHandle<()>> = OnceLock::new();
 
 nexus::export! {
     name: "gw2buttplug-rs",
-    signature: -0x12345678, // raidcore addon id or NEGATIVE random unique signature
+    signature: -0x7331BABE, // raidcore addon id or NEGATIVE random unique signature
     load,
     unload,
     flags: AddonFlags::None,
