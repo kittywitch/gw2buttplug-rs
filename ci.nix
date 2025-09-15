@@ -43,9 +43,9 @@ in
     #artifactPackage = config.artifactPackages.win64;
     artifactPackage = runCommand "example-artifacts" { } (''
       mkdir -p $out/lib
-      cp ${config.artifactPackages.main}/lib/gw2buttplug-rs.dll $out/lib/
+      cp ${config.artifactPackages.main}/lib/gw2buttplug_rs.dll $out/lib/
     '' + concatStringsSep "\n" (mapAttrsToList (key: addonPath: ''
-        cp ${addonPath}/lib/gw2buttplug-rs.dll $out/lib/nexus_example_addon-${key}.dll
+        cp ${addonPath}/lib/gw2buttplug_rs.dll $out/lib/gw2buttplug_rs-${key}.dll
     '') config.artifactPackages));
 
     gh-actions = {
