@@ -5,6 +5,15 @@ description = "DPS to buttplug"
 version = "0.1.0"
 edition = "2021"
 
+[profile.release]
+opt-level = "z"
+#opt-level = 2
+#codegen-units = 1
+#debug = true
+panic = "abort"
+#lto = "thin"
+lto = true
+
 [dependencies]
 anyhow = "1.0.95"
 buttplug = "9.0.6"
