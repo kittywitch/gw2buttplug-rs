@@ -99,7 +99,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: gw2buttplug-rs
-        path: .ci/artifacts/lib/gw2buttplug-rs*.dll
+        path: .ci/artifacts/lib/*.dll
     - id: release-upload
       if: startsWith(github.ref, 'refs/tags/')
       name: release

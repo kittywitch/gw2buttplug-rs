@@ -2,7 +2,7 @@
   self = import ./.;
   packages = self.packages.${pkgs.system};
   artifactRoot = ".ci/artifacts";
-  artifacts = "${artifactRoot}/lib/gw2buttplug-rs*.dll";
+  artifacts = "${artifactRoot}/lib/*.dll";
   release = "${artifactRoot}/lib/gw2buttplug-rs.dll";
 in
 {
